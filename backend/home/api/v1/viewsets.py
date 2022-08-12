@@ -1,6 +1,6 @@
 from rest_framework import viewsets
-from home.models import Rasgjkf
-from .serializers import RasgjkfSerializer
+from home.models import Abhjjjhg, Rasgjkf
+from .serializers import AbhjjjhgSerializer, RasgjkfSerializer
 from rest_framework import authentication
 from rest_framework.authtoken.serializers import AuthTokenSerializer
 from rest_framework.viewsets import ModelViewSet, ViewSet
@@ -41,3 +41,12 @@ class RasgjkfViewSet(viewsets.ModelViewSet):
         authentication.TokenAuthentication,
     )
     queryset = Rasgjkf.objects.all()
+
+
+class AbhjjjhgViewSet(viewsets.ModelViewSet):
+    serializer_class = AbhjjjhgSerializer
+    authentication_classes = (
+        authentication.SessionAuthentication,
+        authentication.TokenAuthentication,
+    )
+    queryset = Abhjjjhg.objects.all()
