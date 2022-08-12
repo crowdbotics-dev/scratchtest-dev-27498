@@ -9,4 +9,6 @@ class Abhjjjhg(models.Model):
 
 class Devtest123(models.Model):
     "Generated Model"
-    name = models.TextField()
+    name23 = models.TextField(
+        blank=True,
+    )
