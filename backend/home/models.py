@@ -4,4 +4,6 @@ from django.db import models
 
 class Rasgjkf(models.Model):
     "Generated Model"
-    yuirtr = models.TextField()
+    yuirtr12 = models.TextField(
+        blank=True,
+    )
