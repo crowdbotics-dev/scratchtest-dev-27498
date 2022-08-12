@@ -1,5 +1,5 @@
 from django.contrib.auth import get_user_model
-from home.models import Abhjjjhg, Rasgjkf
+from home.models import Abhjjjhg
 from django.http import HttpRequest
 from django.utils.translation import ugettext_lazy as _
 from allauth.account import app_settings as allauth_settings
@@ -74,12 +74,6 @@ class PasswordSerializer(PasswordResetSerializer):
     """Custom serializer for rest_auth to solve reset password error"""
 
     password_reset_form_class = ResetPasswordForm
-
-
-class RasgjkfSerializer(serializers.ModelSerializer):
-    class Meta:
-        model = Rasgjkf
-        fields = "__all__"
 
 
 class AbhjjjhgSerializer(serializers.ModelSerializer):
