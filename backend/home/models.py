@@ -12,3 +12,7 @@ class Devtest123(models.Model):
     name23 = models.TextField(
         blank=True,
     )
+    clas456 = models.BigIntegerField(
+        null=True,
+        blank=True,
+    )
