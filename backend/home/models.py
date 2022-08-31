@@ -16,3 +16,8 @@ class Devtest123(models.Model):
         null=True,
         blank=True,
     )
+
+
+class Abhjiy231(models.Model):
+    "Generated Model"
+    bcfjd = models.BigIntegerField()
