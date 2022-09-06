@@ -61,6 +61,7 @@ This section will show any installed modules you add from the Storyboard Modules
 - [screen-about-the-app](screens/about-the-app)
 - [screen-account-settings](screens/account-settings)
 - [camera]()
+- [privacy-policy]()
 
 # Getting started: Frontend
 
