@@ -1,4 +1,4 @@
-from .models import Abhjjjhg, Devtest123
+from .models import Devtest123, Abhjjjhg, Abhjiy231
 from django.views.generic import CreateView, UpdateView, DetailView, ListView
 from django.shortcuts import render
 
